@@ -1,0 +1,29 @@
+{
+  "name": "demoapplication",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "mocha --recursive --reporter list --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Chicmic",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bluebird": "^3.5.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-joi-validator": "^2.0.0",
+    "joi-to-swagger": "^4.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.3.13",
+    "request": "^2.88.0",
+    "swagger-ui-express": "^4.0.1"
+  }
+}
